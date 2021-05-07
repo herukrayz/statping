@@ -28,15 +28,15 @@
   </transition>
   <div class="row stats_area mt-5 mb-4">
       <div class="col-4">
-          <span class="font-5 d-block font-weight-bold">{{humanTime(service.avg_response)}}</span>
+          <span class="font-2 d-block font-weight-bold">{{humanTime(service.avg_response)}}</span>
           <span class="font-1 subtitle">{{$t('average_response')}}</span>
       </div>
       <div class="col-4">
-          <span class="font-5 d-block font-weight-bold">{{service.online_7_days}} %</span>
+          <span class="font-2 d-block font-weight-bold">{{service.online_7_days}} %</span>
           <span class="font-1 subtitle">{{$t('last_uptime')}} 7 {{$tc('days', 7)}}</span>
       </div>
       <div class="col-4">
-          <span class="font-5 d-block font-weight-bold">{{service.online_30_days}} %</span>
+          <span class="font-2 d-block font-weight-bold">{{service.online_30_days}} %</span>
           <span class="font-1 subtitle">{{$t('last_uptime')}} 30 {{$tc('days', 30)}}</span>
       </div>
   </div>
