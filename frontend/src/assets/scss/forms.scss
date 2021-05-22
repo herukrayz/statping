@@ -17,7 +17,7 @@
   border-radius: 4px !important;
 }
 
-.form-control {
+.form-control, .custom-file-input {
   background-color: $input-background;
   border: $input-border;
   color: $input-color;
