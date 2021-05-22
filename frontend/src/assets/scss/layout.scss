@@ -20,10 +20,6 @@ A {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.modal-content{
-  background-color: $background-1; 
-}
-
 .modal {
   z-index: 999999 !important;
   display: block;
@@ -136,7 +132,6 @@ A {
 .list-group-item {
   min-height: 85pt;
   background-color: $group-list-background;
-  color: $incidentTextColor !important;
 }
 
 .list-group-item:HOVER {

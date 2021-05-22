@@ -11,13 +11,6 @@
   transition: height 0.3s ease;
 }
 
-.dates{
-  color: $text-1!important; 
-}
-.dates strong{
-  color: $main-1!important; 
-}
-
 .service-tm-menu {
   width: 210px;
   height: 355px;
@@ -369,11 +362,11 @@
     @include dynamic-color($danger-color);
   }
 
-  .bg-success, .badge-success {
+  .bg-success {
     background-color: $success-color !important;
   }
 
-  .bg-danger, .badge-danger {
+  .bg-danger {
     background-color: $danger-color !important;
   }
 
@@ -463,77 +456,3 @@
     transform: translateX(10px);
     opacity: 0;
   }
-
-  .card {
-    background-color: $group-list-background !important;
-    color: $text-color !important;
-}
-.text-black-50 {
-  color: $text-color !important;
-}
-.flatpickr-calendar {
-  background-color: #282828 !important;
-}
-
-.flatpickr-month, .flatpickr-weekday, .flatpickr-day{
-  color: $input-color !important;
-}
-
-.flatpickr-next-month svg, .flatpickr-prev-month svg {
-  fill: $input-color;
-}
-
-.prevMonthDay{
-   color: #2F3133 !important
-}
-
-.flatpickr-day.selected{
-  background-color: $text-color;
-}
-
-.flatpickr-time .flatpickr-am-pm:focus, .flatpickr-time .flatpickr-am-pm:hover, .flatpickr-time input:focus, .flatpickr-time input:hover{
-  background-color: $input-background !important;
-}
-
-.numInput, .flatpickr-am-pm{
-  color: $input-color !important;
-}
-
-.apexcharts-svg rect{
-  fill: $background-2;
-}
-
-.CodeMirror-scroll {
-  background-color: $code-editor-background;
-}
-
-.CodeMirror-linenumbers {
-  background-color: $code-editor-lineNum-background;
-  color: $code-editor-lineNum;
-}
-
-.card-header a{
-  color: $dashboard-title;
-}
-
-.btn-white{
-  background-color: $dashboard-button;
-  border: $dashboard-button-border
-}
-
-.btn-white:hover{
-  background-color: $dashboard-button-hover;
-  border: $dashboard-button-border
-}
-
-.apexcharts-canvas svg text{
-  fill: $dashboard-values;
-}
-
-.text-danger{
-  color: $text-danger !important;
-}
-
-.text-success{
-  color: $text-success !important;
-}
